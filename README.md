@@ -1,13 +1,13 @@
-SQL PMO Project – Portfolio Management Database
+**SQL PMO Project – Portfolio Management Database**
 
 This project demonstrates end‑to‑end SQL skills using a realistic Project Management Office (PMO) dataset.
 It includes database design, DDL, DML, indexing, and analytical SQL queries used for portfolio reporting.
 
-Project Structure
+**Project Structure**
 ```
 sql-pmo-project/
 │
-├── data/                # Raw CSV files exported from Excel
+├── data/                5 Raw CSV files exported from Excel
 │
 ├── ddl/                 # Database schema (DDL)
 │   ├── create_tables.sql
@@ -29,7 +29,7 @@ sql-pmo-project/
     └── rag_trend_queries.sql
 ```
 
-Database Schema Overview
+**Database Schema Overview**
 
 The database contains five core tables:
 
@@ -45,7 +45,7 @@ The database contains five core tables:
 
 These tables form a realistic PMO relational model suitable for analytics.
 
-SQL Skills Demonstrated
+**SQL Skills Demonstrated**
 
     Database design & normalization
 
@@ -53,7 +53,7 @@ SQL Skills Demonstrated
 
     DML: bulk insert scripts
 
-Analytical SQL:
+**Analytical SQL:**
 
     joins
 
@@ -67,7 +67,7 @@ Analytical SQL:
 
     Portfolio reporting queries
 
-How to Run This Project
+**How to Run This Project**
 
 1. Run all scripts in ddl/ in this order:
 
@@ -93,7 +93,7 @@ How to Run This Project
 
     Portfolio summaries
 
-Example Insights
+**Example Insights**
 
     Projects behind schedule
 
