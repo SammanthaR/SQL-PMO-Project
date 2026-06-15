@@ -7,7 +7,7 @@ It includes database design, DDL, DML, indexing, and analytical SQL queries used
 ```
 sql-pmo-project/
 │
-├── data/                5 Raw CSV files exported from Excel
+├── data/                # Raw CSV files exported from Excel
 │
 ├── ddl/                 # Database schema (DDL)
 │   ├── create_tables.sql
