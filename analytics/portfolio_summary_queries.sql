@@ -3,7 +3,6 @@
 -- High‑level portfolio performance indicators across all projects.
 ------------------------------------------------------------
 
-
 ------------------------------------------------------------
 -- 1. Portfolio Financial Summary
 -- Total planned vs. actual cost and benefit
