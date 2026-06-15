@@ -4,7 +4,7 @@ This project demonstrates end‑to‑end SQL skills using a realistic Project Ma
 It includes database design, DDL, DML, indexing, and analytical SQL queries used for portfolio reporting.
 
 Project Structure
-
+```
 sql-pmo-project/
 │
 ├── data/                # Raw CSV files exported from Excel
@@ -27,6 +27,7 @@ sql-pmo-project/
     ├── resource_capacity_queries.sql
     ├── portfolio_summary_queries.sql
     └── rag_trend_queries.sql
+```
 
 Database Schema Overview
 
