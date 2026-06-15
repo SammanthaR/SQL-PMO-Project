@@ -6,13 +6,10 @@ It includes database design, DDL, DML, indexing, and analytical SQL queries used
 Project Structure
 
 sql-pmo-project/
-
 │
 ├── data/                # Raw CSV files exported from Excel
 │
-
 ├── ddl/                 # Database schema (DDL)
-
 │   ├── create_tables.sql
 │   ├── constraints.sql
 │   └── indexes.sql
