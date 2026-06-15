@@ -80,8 +80,10 @@ How to Run This Project
     indexes.sql
    
 
+
 2. Load data using the scripts in dml/.
    
+
 
 3. Execute queries in analytics/ to generate insights such as:
 
