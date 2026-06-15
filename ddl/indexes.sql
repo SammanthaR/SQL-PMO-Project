@@ -15,7 +15,6 @@ CREATE INDEX idx_projects_lob
 CREATE INDEX idx_projects_risk
     ON projects (risk_rating);
 
-
 ------------------------------------------------------------
 -- RESOURCES TABLE INDEXES
 ------------------------------------------------------------
@@ -25,7 +24,6 @@ CREATE INDEX idx_resources_role
 
 CREATE INDEX idx_resources_department
     ON resources (resource_department);
-
 
 ------------------------------------------------------------
 -- PROJECT RESOURCE ALLOCATION INDEXES
@@ -40,7 +38,6 @@ CREATE INDEX idx_pra_resource
 CREATE INDEX idx_pra_month
     ON project_resource_allocation (month);
 
-
 ------------------------------------------------------------
 -- PROJECT FINANCIALS INDEXES
 ------------------------------------------------------------
@@ -50,7 +47,6 @@ CREATE INDEX idx_fin_project
 
 CREATE INDEX idx_fin_month
     ON project_financials (month);
-
 
 ------------------------------------------------------------
 -- PROJECT HEALTH SNAPSHOT INDEXES
