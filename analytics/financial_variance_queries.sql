@@ -4,7 +4,6 @@
 -- planned vs. actual financial performance across projects.
 ------------------------------------------------------------
 
-
 ------------------------------------------------------------
 -- 1. Monthly Cost Variance by Project
 -- (Actual Cost – Planned Cost)
