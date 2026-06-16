@@ -1,7 +1,23 @@
 **SQL PMO Project – Portfolio Management Database**
 
-This project demonstrates end‑to‑end SQL skills using a realistic Project Management Office (PMO) dataset.
-It includes database design, DDL, DML, indexing, and analytical SQL queries used for portfolio reporting.
+This project demonstrates end‑to‑end SQL capabilities using a realistic Project Management Office (PMO) dataset.  
+It includes full database design, Data Definition Language (DDL), Data Manipulation Language (DML), indexing, and advanced analytical SQL used for enterprise‑grade portfolio reporting.
+
+The goal of this project is to simulate how a real PMO manages projects, resources, financials, and health metrics — and how SQL powers the insights behind executive dashboards.
+
+**Purpose of This Project**
+
+This repository serves as a **complete SQL portfolio project** demonstrating:
+
+- Real‑world PMO data modeling  
+- Enterprise‑style SQL analytics  
+- Clean, maintainable SQL architecture  
+- A realistic dataset large enough to show complexity  
+- Skills directly applicable to data engineering, BI, and analytics roles  
+
+It is designed to be both a **learning tool** and a **portfolio showcase**.
+
+This project is fully functional and ready for use, extension, or integration into BI dashboards.
 
 **Project Structure**
 ```
@@ -47,61 +63,71 @@ These tables form a realistic PMO relational model suitable for analytics.
 
 **SQL Skills Demonstrated**
 
-    Database design & normalization
+Database Design
 
-    DDL: table creation, constraints, indexing
+    - Normalized schema  
+    - Primary/foreign keys  
+    - Referential integrity  
 
-    DML: bulk insert scripts
+DDL
+  
+    - Table creation  
+    - Constraints  
+    - Indexing strategy  
 
-**Analytical SQL:**
+DML
 
-    joins
+    - Bulk insert scripts  
+    - 250+ project records  
+    - 100 resources  
+    - Full financial, allocation, and health datasets  
 
-    CTEs
+Analytical SQL:
 
-    window functions
-
-    aggregations
-
-    trend analysis
-
-    Portfolio reporting queries
+    - Joins  
+    - CTEs  
+    - Window functions  
+    - Variance analysis  
+    - Trend analysis  
+    - RAG scoring  
+    - Portfolio rollups  
+    - Resource utilization modeling  
+    
+This project mirrors the analytics used in real PMO dashboards (Power BI, Tableau, etc.).
 
 **How to Run This Project**
 
-1. Run all scripts in ddl/ in this order:
+1. Run all scripts in ddl folder in this order:
 
-    create_tables.sql
 
-    constraints.sql
+    -create_tables.sql
 
-    indexes.sql
+    -constraints.sql
+
+    -indexes.sql
+
+   
+3. Load data and run all scripts in dml folder
+
+   -insert_projects.sql
+   
+   -insert_resources.sql
+   
+   -insert_allocations.sql
+   
+   -insert_financials.sql
+   
+   -insert_health_snapshot.sql
    
 
+4. Execute queries in analytics folder to generate insights such as:
 
-2. Load data using the scripts in dml/.
-   
+    -Project RAG trends
 
+    -Budget vs actual variance
 
-3. Execute queries in analytics/ to generate insights such as:
+    -Resource over‑allocation
 
-    Project RAG trends
+    -Portfolio level summaries
 
-    Budget vs actual variance
-
-    Resource over‑allocation
-
-    Portfolio summaries
-
-**Example Insights**
-
-    Projects behind schedule
-
-    Cost variance by month
-
-    Resource utilization by department
-
-    Repeated red‑status projects
-
-    Portfolio burn rate
-
+    -Health scoring and early‑warning indicators
